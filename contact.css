@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Apricot;
+    src: url(/Fonts/ApricotFarmhouse.otf);
+}
+
+@font-face {
+    font-family: Balsamiq;
+    src: url(/Fonts/BalsamiqSans-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(143,122,96);
+    scroll-behavior: smooth;
+}
+
+body{ 
+    background-color: rgb(246,243,227);
+}
+
+/* HOME SECTION */
+.navbar{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    width: 85%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    margin-top: 30px;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(143,122,96);
+    font-weight: bold;
+}
+
+.leftNav img{
+    position: absolute;
+    margin-top: 20px;
+    width: 40px;
+    left: -30px;
+    border-radius: 100px;
+}
+
+/* CONTACTS SECTION */
+.ContactSection{
+    position: absolute;
+    top: 1800px;
+}
+
+.ContactSection img{
+    width: 50px;
+}
+
+.ContactSection table{
+    font-family:Balsamiq;
+    font-size: 30px;
+    width: 100%;
+    position: relative;
+    left: 350px;
+    top: 200px;
+}
+
+.ContactSection h1{
+    position: relative;
+    left: 200px;
+    top: 150px;
+}

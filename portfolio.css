@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Apricot;
+    src: url(/Fonts/ApricotFarmhouse.otf);
+}
+
+@font-face {
+    font-family: Balsamiq;
+    src: url(/Fonts/BalsamiqSans-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(143,122,96);
+    scroll-behavior: smooth;
+}
+
+body{ 
+    background-color: rgb(246,243,227);
+}
+
+/* HOME SECTION */
+.navbar{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    width: 85%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    margin-top: 30px;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(143,122,96);
+    font-weight: bold;
+}
+
+.leftNav img{
+    position: absolute;
+    margin-top: 20px;
+    width: 40px;
+    left: -30px;
+    border-radius: 100px;
+}
+
+/* PORTFOLIO SECTION */
+.portfolio p{
+    position: relative;
+    left:110px;
+    top: 120px;
+    font-family: Balsamiq;
+    font-size: 20px;
+    width: 1100px;
+    margin-bottom: 40px;
+    left: 200px
+}
+
+.portfolio h1{
+    font-family: Apricot;
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: 90px;
+    font-size: 45px;
+    color: rgb(143,122,96);
+}
+
+.portfolio video{
+    position: relative;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+    display: inline-block;
+    left: 40%;
+    transform: translateX(-50%);
+    top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.drafting, .illus{
+    position: relative;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 60px;
+    color: rgb(143,122,96);
+}
+
+.drafting{
+    left: 410px;
+    top: 110px;
+}
+
+.illus{
+    left: 800px;
+    top: 60px;
+}
